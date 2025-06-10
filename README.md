@@ -1,66 +1,65 @@
-# E-Commerce-Shipping-Orders-Analysis-using-Google-Looker-Studio
-E-Commerce Shipping Orders Analysis using Google Looker Studio
+# Ecommerce_Shipping_Insights_GoogleLooker
 
-This project involves building an interactive business intelligence dashboard using **Google Looker Studio** to analyze an **E-Commerce Shipping Orders** dataset. The dashboard provides insights into customer behavior, order trends, product performance, and shipping preferences to support data-driven decision-making.
+This project presents an interactive business intelligence dashboard built using **Google Looker Studio**, aimed at analyzing an E-Commerce Shipping Orders dataset. The dashboard delivers actionable insights into customer behavior, order trends, product performance, and shipping preferences to support data-driven decision-making.
 
-> 📊 View the Published Dashboard: https://lookerstudio.google.com/s/g9po84YZo00
+📊 **View Dashboard**: [Click to view](https://lookerstudio.google.com/s/g9po84YZo00)
+![Dashboard Preview](https://github.com/r-rahulsingh/Ecommerce_Shipping_Insights_GoogleLooker/blob/main/Screenshot_Dashboard.png)
+---
+
+### 🎯 **Objective**
+
+The primary objectives of the dashboard are to:
+
+* Visualize order patterns by region, segment, and product category
+* Identify top-performing products and high-value customers
+* Analyze shipping mode preferences
+* Deliver strategic insights to stakeholders
 
 ---
 
-## 🎯 Objective
+### 📁 **Dataset Overview**
 
-The primary goal is to:
-- Visualize order patterns across regions, segments, and categories.
-- Identify top-performing products and customers.
-- Understand shipping mode preferences.
-- Provide actionable insights to stakeholders.
+* **Source**: Public E-Commerce Dataset (sampled)
+* **Total Orders**: 9,994
+* **Unique Customers**: 793
+* **Geographic Coverage**: 49 U.S. states
 
----
+**Key Fields**:
 
-## 📁 Dataset Details
-
-**Source**: Public E-Commerce Dataset (sampled)
-
-**Total Orders**: 9,994  
-**Unique Customers**: 793  
-**U.S. States Covered**: 49  
-**Main Fields**:
-- Order ID
-- Customer Name
-- Region (East, West, South, Central)
-- Segment (Consumer, Corporate, Home Office)
-- Product Category (Technology, Furniture, Office Supplies)
-- Ship Mode (Standard Class, Second Class, First Class, Same Day)
-- Quantity
-- City
+* Order ID, Customer Name
+* Region: East, West, South, Central
+* Segment: Consumer, Corporate, Home Office
+* Category: Technology, Furniture, Office Supplies
+* Ship Mode: Standard, Second Class, First Class, Same Day
+* Quantity, City
 
 ---
 
-## 🛠️ Tools Used
+### 🛠️ **Tools & Technologies**
 
-| Tool            | Purpose                        |
-|-----------------|--------------------------------|
-| Google Sheets   | Data cleaning and connection   |
-| Google Looker Studio | Data visualization and dashboarding |
-| Excel           | Dataset preprocessing          |
-
----
-
-## 📊 Dashboard Features
-
-- 📍 **Order Breakdown by Region, Segment, and Category**
-- 🚚 **Shipping Mode Preferences**
-- ⏳ **Order Trends over Time**
-- 🏙️ **Orders by City**
-- 👥 **Top Customers by Quantity**
-- 📈 **Interactive Filters** (Region, Segment, Ship Mode, Category)
+| Tool                 | Purpose                                 |
+| -------------------- | --------------------------------------- |
+| Google Sheets        | Data cleaning and integration           |
+| Google Looker Studio | Dashboard development and visualization |
+| Microsoft Excel      | Initial data preprocessing              |
 
 ---
 
-## 🔑 Key Insights
+### 📊 **Dashboard Highlights**
 
-- **West region** generates the most orders.
-- **Standard Class** is the preferred shipping mode (~52% of orders).
-- **Office Supplies** is the highest-ordered product category.
-- The **Consumer** segment dominates with over 60% of orders.
-- Top individual customers place large quantity orders (up to 50+ items).
+* Order distribution by **Region**, **Segment**, and **Category**
+* **Shipping Mode** analysis and preference breakdown
+* Temporal trends in orders
+* City-level order visualization
+* Top customers ranked by quantity
+* Fully **interactive filters** for exploratory analysis
+
+---
+
+### 🔍 **Key Insights**
+
+* The **West** region leads in total orders
+* **Standard Class** is the most used shipping mode (\~52%)
+* **Office Supplies** category has the highest order volume
+* **Consumer segment** accounts for over 60% of orders
+* High-value customers place large orders (50+ items)
